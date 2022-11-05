@@ -9,11 +9,11 @@ int get_chips() {
 }
 
 int game(int chips) {
-	int cpunumber = rand() % 4;
+	int cpunumber = rand() % 5;
 	int number = 0;
 	int bet = 0;
 	printf("Current Chip Balance: %d\n", chips);
-	printf ("Enter a number to compare to bet on: 0 to 4 \n");
+	printf ("Enter a number to bet on: 0 to 4 \n");
         scanf("%d", &number);
 	printf("Enter your bet. You have %d chips\nMinimum bet is 100.\n", chips);
 	scanf("%d", &bet);
